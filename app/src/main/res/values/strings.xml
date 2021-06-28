@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">wequestion2</string>
+    <string name="hello_and_03">Hello AND 03</string>
+    <string name="welcome_to_layout">Welcome to layout</string>
+    <string name="name_sumit_rai">Name: Sumit Rai</string>
+    <string name="age_50">Age : 50</string>
+    <string name="next">NEXT</string>
+</resources>

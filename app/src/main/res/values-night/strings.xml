@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_and_03">Hello AND 03</string>
+    <string name="age_50">Age : 50</string>
+    <string name="next">NEXT</string>
+</resources>

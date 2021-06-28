@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:id="@+id/hello"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/hello_and_03"
+      android:layout_centerHorizontal="true"
+      android:textColor="@color/white"
+      android:textSize="35sp"
+      android:layout_marginTop="20dp"
+      android:textStyle="bold"
+
+/>
+    <TextView
+        android:id="@+id/hi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hello"
+        android:text="@string/welcome_to_layout"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:layout_marginTop="20dp"
+
+        />
+  <View
+      android:id="@+id/circle"
+      android:layout_width="85dp"
+      android:layout_height="70dp"
+      android:layout_below="@+id/hi"
+    android:background="@drawable/bkue"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="20dp"/>
+<TextView
+    android:id="@+id/text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  android:layout_below="@+id/circle"
+    android:text="@string/name_sumit_rai"
+
+android:textStyle="bold"
+    android:textSize="20sp"
+    android:textColor="@color/white"
+    android:layout_marginTop="20dp"
+    />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+android:layout_below="@+id/text"
+    android:text="@string/age_50"
+    android:textSize="20sp"
+      android:textColor="@color/white"
+    />
+  <Button
+      android:id="@+id/next"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+      android:background="#00FF00"
+      android:textSize="20sp"
+      android:text="@string/next"/>
+  <View
+      android:id="@+id/gery"
+      android:layout_width="140dp"
+      android:layout_height="30dp"
+     android:layout_above="@+id/next"
+      android:background="@color/white"
+      android:layout_alignParentEnd="true"
+       android:layout_marginEnd="50dp"
+      android:layout_marginBottom="20dp"
+
+
+
+      />
+  <View
+      android:id="@+id/gery2"
+      android:layout_width="160dp"
+      android:layout_height="30dp"
+      android:layout_above="@+id/gery"
+      android:background="@color/white"
+      android:layout_alignParentEnd="true"
+      android:layout_marginEnd="50dp"
+      android:layout_marginBottom="20dp"
+
+
+
+      />
+  <View
+      android:id="@+id/gery3"
+      android:layout_width="190dp"
+      android:layout_height="30dp"
+      android:layout_above="@+id/gery2"
+      android:background="@color/white"
+      android:layout_alignParentEnd="true"
+      android:layout_marginEnd="50dp"
+      android:layout_marginBottom="20dp"
+
+
+
+      />
+</RelativeLayout>
